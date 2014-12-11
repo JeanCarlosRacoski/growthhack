@@ -1,0 +1,273 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(http://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url(http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff) format('woff');
+}
+
+.top-border {
+  border-top: 5px solid #428bca;
+}
+
+.container-growth {
+  width: 962px;
+  font-family: 'Lato', sans-serif;
+  margin-right:auto;
+  margin-top: -50px;
+  margin-left:auto;
+  padding-left:15px;
+  padding-right:15px
+}
+
+.container-growth h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #428bca;
+}
+
+.container-growth h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #428bca;
+  margin-top: 40px;
+  margin-bottom: 10px
+}
+
+.container-growth p {
+  margin-bottom:20px;
+  margin-left: 12px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight:200;
+  line-height:1.8;
+}
+
+.container-growth h3 {
+  margin-left: 12px;
+}
+
+.container-growth li {
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight:200;
+  line-height:1.8;
+}
+
+.container-growth img {
+  margin-bottom: 20px;
+}
+
+.main-article {
+  padding-right: 20px;
+  border-bottom: 3px solid #428bca;
+}
+
+.outline-header {
+  background-color: #428bca;
+  font-weight: 200;
+  color: #fff;
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.desafio img {
+  width: 70px;
+  margin-bottom: -5px;
+}
+
+.class-next {
+  width: 50%;
+  float: right;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.class-next a {
+  font-size: 18px;
+}
+
+.class-next-icon {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 17px;
+  height: 28px;
+  float: right;
+  background: url('next_icon.png') no-repeat scroll center center transparent;
+  margin-left: 0px;
+}
+
+.footer-growth {
+  border-top: 5px solid #428bca;
+  padding-top: 30px;
+  text-align: center;
+  margin-top: 50px;
+  height: 15%;
+  bottom: 0;
+  width: 100%;
+  background-color: #1f272a;
+  margin-bottom: -80px;
+}
+
+.footer-growth h1 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-family: 'Open Sans Condensed';
+}
+
+/* ################################## SIGNIN GROWTH ############################################## */
+
+#signingrowth {
+  width: 800px;
+	margin: 0px 50px auto;
+	text-align: center;
+	position: relative;
+}
+
+#signingrowth fieldset {
+	/*background: rgba(255,255,255,.8);*/
+	background-color: #e6e6e6;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	/*stacking fieldsets above each other*/
+	position: absolute;
+}
+
+#signingrowth fieldset p {
+	text-align: right;
+	margin-left: 0px;
+	margin-bottom: -20px;
+}
+
+
+/*Hide all except first fieldset*/
+#signingrowth fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#signingrowth input, #signinstudent textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+#signingrowth-states {
+	float: left;
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 30%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+#signingrowth-states option {
+	float: left;
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 30%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+/*buttons*/
+#signingrowth .action-button {
+	width: 100px;
+	background: #ff2738;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 0 5px;
+}
+#signingrowth .action-button:hover, #signinstudent .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #ff2738;
+}
+
+.bluebutton {
+  color:#fff;
+  background-color: #0091CB;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffdcdcdc', GradientType=0);
+  text-shadow: none;
+  padding: 8px 30px;
+  line-height: 1.33;
+  border-radius: 3px;
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.bluebutton:hover,.greenbutton:focus,.greenbutton:active{
+  color:#fff;
+	background-color: #00a7ea;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffdcdcdc', GradientType=0);
+	text-decoration: none;
+}
+
+.banner-vertical {
+  background-color: #1f272a;
+  color: #fff;
+  padding: 10px;
+  margin-top: 300px;
+}
+
+.banner-horizontal {
+  background-color: #1f272a;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.growth-table table tr td {
+  border: 1px solid #292929
+}
